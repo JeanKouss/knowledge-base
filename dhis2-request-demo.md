@@ -6,3 +6,7 @@ api/programIndicators?fields=id,displayName,name,dimensionItemType&order=display
 
 api/organisationUnits.json?fields=id,name,level&paging=false
 ```
+Get an ou childrens :
+```
+api/organisationUnits.json?fields=id,name,children[id,name,parent]&filter=id:in:[yXVS0fePf7b]
+```
